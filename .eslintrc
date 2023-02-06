@@ -1,0 +1,9 @@
+{
+  "root": true,
+  "env": {
+    "browser": true
+  },
+  "extends": ["eslint:recommended", "plugin:vue/vue3-recommended", "prettier", "@vue/typescript/recommended"],
+  "rules": { "vue/multi-word-component-names": 0 },
+  "ignorePatterns": ["node_modules/*", "dist/*", "public/*"] //  các thư mục trong mảng này nó sẽ bỏ qua và không check lỗi
+}
